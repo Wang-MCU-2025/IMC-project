@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R1</title>
+    <style>
+        body {
+            background-color: #171e3f; /* 深藍色背景 */
+            color: white; /* 字體顏色 */
+            font-family: 'Noto Sans TC', sans-serif; /* 使用思源黑體 */
+            margin: 0; /* 移除預設邊距 */
+            text-align: center; /* 文字置中 */
+        }
+        p.title {
+            font-size: 24px; /* 字體大小 */
+            font-weight: bold; /* 加粗 */
+            margin: 20px 0; /* 上下邊距 */
+        }
+        .stall-container {
+            display: grid; /* 使用網格布局 */
+            grid-template-columns: repeat(2, 1fr); /* 兩欄 */
+            gap: 5px; /* 攤位間距縮小 */
+            margin: 0 auto; /* 居中顯示 */
+            max-width: 800px; /* 最大寬度 */
+        }
+        .stall {
+            text-align: center; /* 文字置中 */
+        }
+        .stall img {
+            width: 110px; /* 圖片寬度放大10% */
+            height: 110px; /* 圖片高度放大10% */
+            border-radius: 50%; /* 圓形圖片 */
+            object-fit: cover; /* 確保圖片覆蓋完整圓形 */
+        }
+        .description {
+            margin: 5px 0 0 0; /* 說明文字的邊距 */
+            font-size: 14px; /* 說明文字大小 */
+        }
+        .back-button {
+            display: inline-block; /* 使按鈕為區塊元素 */
+            margin: 20px 0; /* 上下邊距 */
+            padding: 10px 20px; /* 按鈕內邊距 */
+            background-color: #ffcc00; /* 按鈕背景色 */
+            color: #171e3f; /* 按鈕文字顏色 */
+            font-size: 18px; /* 字體大小 */
+            border-radius: 15px; /* 圓角 */
+            text-decoration: none; /* 移除下劃線 */
+            transition: background-color 0.3s; /* 動畫效果 */
+        }
+        .back-button:hover {
+            background-color: #ffb700; /* 滑過按鈕時改變顏色 */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="title">逛吃線</p> <!-- 加大加粗的標題 -->
+        
+        <div class="stall-container">
+            <div class="stall">
+                <img src="image/p1 night market.png" alt="攤位1圖片"> <!-- 攤位1圖片 -->
+                <p>攤位1</p>
+                <p class="description">有吃有喝有逛街，士林夜市一把拿下。</p> <!-- 攤位1介紹文字 -->
+            </div>
+
+            <div class="stall">
+                <img src="image/p2 night market.png" alt="攤位2圖片"> <!-- 攤位2圖片 -->
+                <p>攤位2</p>
+                <p class="description">每個攤位都要留下最佳照片。</p> <!-- 攤位2介紹文字 -->
+            </div>
+
+            <div class="stall">
+                <img src="image/p3 night market.png" alt="攤位3圖片"> <!-- 攤位3圖片 -->
+                <p>攤位3</p>
+                <p class="description">各種小吃等你來嘗試。</p> <!-- 攤位3介紹文字 -->
+            </div>
+
+            <div class="stall">
+                <img src="image/p4 night market.png" alt="攤位4圖片"> <!-- 攤位4圖片 -->
+                <p>攤位4</p>
+                <p class="description">熱情的攤販與獨特的美食。</p> <!-- 攤位4介紹文字 -->
+            </div>
+
+            <div class="stall">
+                <img src="image/p5 night market.png" alt="攤位5圖片"> <!-- 攤位5圖片 -->
+                <p>攤位5</p>
+                <p class="description">經典的夜市小吃，無人能擋。</p> <!-- 攤位5介紹文字 -->
+            </div>
+
+            <div class="stall">
+                <img src="image/p6 night market.png" alt="攤位6圖片"> <!-- 攤位6圖片 -->
+                <p>攤位6</p>
+                <p class="description">傳統風味與現代創新結合。</p> <!-- 攤位6介紹文字 -->
+            </div>
+
+            <div class="stall">
+                <img src="image/p7 night market.png" alt="攤位7圖片"> <!-- 攤位7圖片 -->
+                <p>攤位7</p>
+                <p class="description">讓你欲罷不能的美食。</p> <!-- 攤位7介紹文字 -->
+            </div>
+
+            <div class="stall">
+                <img src="image/p8 night market.png" alt="攤位8圖片"> <!-- 攤位8圖片 -->
+                <p>攤位8</p>
+                <p class="description">新鮮現做，口感絕佳。</p> <!-- 攤位8介紹文字 -->
+            </div>
+        </div>
+
+        <a href="route.html" class="back-button">返回</a> <!-- 返回按鈕 -->
+    </div>
+</body>
+</html>

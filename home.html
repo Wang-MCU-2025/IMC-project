@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #171e3f; /* 深藍色背景 */
+            color: white; /* 字體顏色 */
+            font-family: 'Noto Sans TC', sans-serif; /* 使用思源黑體 */
+            margin: 0; /* 移除預設邊距 */
+            text-align: center; /* 文字置中 */
+        }
+        
+        .container {
+            padding: 20px; /* 內邊距 */
+        }
+
+        img {
+            width: 50%; /* 調整圖片寬度 */
+            max-width: 200px; /* 最大寬度限制 */
+            margin: 0 auto 5px; /* 圖片水平置中，與文字的間距設置為5px */
+            display: block; /* 設置為區塊元素 */
+        }
+
+        input[type="text"] {
+            width: 300px; /* 輸入框寬度 */
+            padding: 10px; /* 增加內邊距 */
+            margin-top: 5px; /* 與文字的間距 */
+            font-size: 16px; /* 字體大小 */
+        }
+
+        .button {
+            display: inline-block; /* 將按鈕設為區塊 */
+            margin-top: 15px; /* 與輸入框的間距 */
+            padding: 12px 25px; /* 按鈕內邊距 */
+            background-color: #ffcc00; /* 按鈕背景色 */
+            color: #171e3f; /* 按鈕文字顏色 */
+            font-size: 18px; /* 字體大小 */
+            border-radius: 15px; /* 圓角 */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* 立體感陰影 */
+            transition: box-shadow 0.2s ease; /* 動畫效果 */
+            text-decoration: none; /* 移除下劃線 */
+        }
+
+        .button:hover {
+            background-color: #ffb700; /* 滑過按鈕時改變顏色 */
+            box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4); /* 增加陰影 */
+        }
+        p.title {
+            font-size: 24px; /* 字體大小 */
+            font-weight: bold; /* 加粗 */
+            margin: 20px 0; /* 上下邊距 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="image/p1 night market.png" alt="士林夜市圖片"> <!-- 顯示縮小圖片 -->
+        <p class="title">士林夜市尋寶遊戲</p>
+        <p class="title">SHI LIN NIGHT MARKET SCAVENGER HUNT</p>
+        <br>
+        <p>請輸入遊戲ID:</p>
+        <input type="text" placeholder="輸入您的遊戲ID"> <!-- 輸入框 -->
+        <br>
+        <a href="route.html" class="button">加入遊戲</a> <!-- 加入遊戲按鈕 -->
+    </div>
+</body>
+</html>
